@@ -1,30 +1,26 @@
-import logo from "../assets/logo";
-
+// Mock data object representing the blog's configuration and articles
 const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  name: "Over the Wire",
+  image: "https://via.placeholder.com/215",
+  about: "A developer's journey through state, props, and everything in between.",
   posts: [
     {
       id: 1,
       title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      date: "May 15, 2026",
+      preview: "Setting up your very first functional component in React.",
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "The Magic of Props",
+      date: "May 16, 2026",
+      preview: "Passing data down dynamically without losing your sanity.",
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
-    },
+      title: "Thinking in React",
+      preview: "Architecting applications the functional way.", // Testing fallback date
+    }
   ],
 };
 
